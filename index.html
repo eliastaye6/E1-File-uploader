@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>E1 File uploader</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
+</head>
+
+<body>
+    <center>
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+        <form action="upload.php" method="post" multiple enctype="multipart/form-data">
+            <iframe name="hidden-iframe" style="display: none;"></iframe>
+            <p> E1 File Uploader </p>
+
+            <div class="upload-area">
+
+                <label for="fileToUpload" class="btn">Click to add or Drag files into the box </label>
+                <input type="file" style="visibility:hidden;" name="fileToUpload[]" multiple id="fileToUpload" onchange="changed()">
+            </div>
+            <p id="filename-list"></p>
+            <input type="submit" value="Upload file" name="submit" id="submit">
+            </div>
+        </form>
+
+
+    </center>
+
+</body>
+
+</html>
