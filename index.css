@@ -47,4 +47,18 @@ form p{
     border-style: none;
     margin-bottom: 1%;
 }
-
+#my-site:link, #my-site:visited{
+	color:darkcyan;
+}
+#my-site:hover{
+	color:lightseagreen;
+}
+#my-site:active{
+	color:darkcyan;
+}
+footer{
+    color:lightcoral;
+    position:absolute;
+   bottom: 1%;
+   
+}

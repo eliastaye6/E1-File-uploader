@@ -8,7 +8,7 @@ Requirements:
 1. A web server capable of executing PHP.
 2. A directory with appropriate write permissions to store uploaded files.
 3. allow post_max_size to be 0 (unlimited) and upload_max_filesize to your desired size in your php.ini file.
-4. allow your webserver be it IIS, Apache, Nginx or anyother to accept large size of files to your desired size.
+4. allow your webserver; be it IIS, Apache, Nginx or anyother to accept large size of files to your desired size.
 
 
 
